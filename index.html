@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c45e4b4558.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="box">
+                    <p><span>N</span>iranjan</p>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software engineer</p>
+                <h1>Hi,I'm <span>Niranjan</span><br> Rathor From Rajasthan India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------- about --------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>As a pre-final year CSE undergraduate student of SRM IST, I am passionate about developing my
+                        skills in Full Stack development, Machine Learning, Deep Learning, and Database. With my
+                        dedication and hard work, I have been able to acquire key proficiencies in Java and DSA,
+                        Competitive Programming using C, C++, and Python, and Web Development using HTML, CSS,
+                        JavaScript, SQL, and Tailwind.<br>
+
+                        I thrive on taking on challenges and am constantly seeking opportunities to showcase my
+                        abilities and prove myself. My strength lies in my hard work, and I am committed to putting in
+                        the effort required to achieve my goals. With a creative mindset and a passion for technology, I
+                        am confident that I can make valuable contributions to any project or team that I am a part
+                        of.<br>
+
+                        As I continue to grow and develop my skills, I look forward to exploring new opportunities and
+                        taking on new challenges that will help me expand my knowledge and expertise in the field.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('profile')">Profile</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Java Developer</li>
+                            <li><span>DSA</span><br>Data Structures And Algorithm </li>
+                            <li><span>Web Development</span><br>Full Stack Developer </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <p> AT this time I do not have any experience at industrial
+                                level .But i really want an internship to discover more
+                                thing to develop my skills.<br>
+                                But I have taken courses that are relevant to the industry<br>
+                                1. DSA with Java <br>
+                                2. DBMS <br>
+                                <br>
+                                Mini-projects:-<br>
+                                1. Tic-Tac Game <br>
+                                2. N-Queen Problem <br>
+                                <br>
+                                Extracurricular activities:<br>
+                                1. Stock Market <br>
+                                2. Snack Down(coding competition)<br>
+                                3. CODE WARS(coding competitions)<br>
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech At SRM University</li>
+                            <li><span>2019</span><br><a href="images/Image_2.jpg">10+2th Schooling</a></li>
+                            <li><span>2017</span><br><a href="images/image_1.jpg">10th Schooling</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="profile">
+                        <ul>
+                            <li><span>HackerRank</span><br><a
+                                    href=" https://www.hackerrank.com/niranjanrathor81">https://www.hackerrank.com/niranjanrathor81</a>
+                            </li>
+                            <li><span>CodeChef</span><br><a 
+                                href=" https://www.codechef.com/users/niranjan5561">https://www.codechef.com/users/niranjan5561</a>
+                            </li>
+                            <li><span>LeetCode</span><br><a
+                                        href="https://leetcode.com/NiranjanRathor/">https://leetcode.com/NiranjanRathor/</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------  Services  ------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I'm currently working on Full Stack Developer.But i can provide basic services of it.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-money-bill-trend-up"></i>
+                    <h2>Stock Market</h2>
+                    <p>I have basics knowledge of the stock market,Fundamental analysis,Technical analysis,Risk
+                        management,Investment strategies,Global markets & Investing in specific sectors or companies.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Java Developer</h2>
+                    <p>I'm a java developer.I have knowledge of object-oriented programming, design patterns, and
+                        software architecture, as well as experience with Java frameworks.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------  portfolio  ----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world .
+                            Dowloand it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world .
+                            Dowloand it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world .
+                            Dowloand it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------  contact  ----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>niranjanrathor888@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>9828335561</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/niranjanrathore8207/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/niranjan-rathor-134093204/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/NiranjanRathor47"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.snapchat.com/add/niranjan8863?share_id=YFvl7e7unEQ&locale=en-IN"><i
+                                class="fa-brands fa-snapchat"></i></a>
+                    </div>
+                    <a href="images/Resume_RA2011026030024_Niranjan_Rathor_for_Niranjan_Rathor.pdf"
+                    download class="btn btn2">Dowloand CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;  Niranjan <i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMqbyaOnR41HcKlsI2jb5G9KLWW6KZ_sy4EbD68Fg5Cx2_Ocy86PHJN488rG28mfqH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+               msg.innerHTML = ""
+            },5000)
+            form.reset() 
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
