@@ -20,7 +20,7 @@ Contributions are welcome! If you find a bug or have a suggestion for improvemen
 # Credits
 The portfolio is built using the following tools and resources:
 
-Bootstrap: A popular CSS framework for building responsive websites.
+Tailwind: A popular CSS framework for building responsive websites.
 Font Awesome: A collection of icons and fonts for web design.
 Unsplash: A website with free high-resolution photos.
 Google Fonts: A collection of free fonts for web design.
